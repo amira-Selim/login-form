@@ -1,0 +1,160 @@
+body{
+    margin: 0px;
+}
+
+.navbar {
+    /* background-color: black; */
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar a {
+    padding: 15px 20px;
+    color: #fff;
+    font-weight: 1000;
+    text-decoration: none;
+    
+}
+.navbar img {
+    width: 80px;
+    margin-left: 5%;
+}
+
+div ul {
+    display: flex;
+    margin-right: 100%;
+}
+ul li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    list-style: none;
+}
+
+
+
+.main{
+    background-image: url(./images/background\ res.jpg);
+    height:100vh;
+    background-size: cover;
+    background-position: center center;
+    overflow: auto;
+    /* filter: brightness(80%); */
+    margin: 0;
+    padding: 0;
+    font-family: acumin-pro, system-ui, sans-serif;
+}
+.black{
+    background-color: rgba(0, 0, 0, 0.256);
+    z-index: 999999999;
+    height: 100vh;
+}
+
+.login{
+    /* background-color: aquamarine; */
+    position: relative;
+    top: 7%;
+    left:18%;
+    width: 60%;
+    
+}
+.login-form{
+    width: 45%;
+    
+    background-color: rgba(0,0, 0, 0.75555555);
+    position: relative;
+    left: 50%;
+    padding:  0px 2.5%;
+    
+    display: inline-block;
+}
+
+
+.login-form h1{
+    text-align: center;
+    color: #fff;
+}
+.login-form label{
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    /* background-color: brown; */
+}
+.login-form input{
+    height: 40px;
+    margin: 0px 0px 10px 0px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px white solid ;
+    color: #fff;
+    font-size: 16px;
+}
+.login-form input[type="submit"]{
+    border: none;
+    height: 40px;
+    width: 90%;
+    background-color: rgb(217, 86, 11);
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: .5s ease;
+    position: relative;
+    left: 15px;
+    margin-bottom: 10px;
+
+}
+.login-form input[type="submit"]:hover{
+    transform: scale(1.1);
+}
+.login-form p{
+    text-align: center;
+
+}
+.login-form a{
+    text-decoration: none;
+    color: rgb(217, 86, 11);
+    
+}
+.login span{
+    color: rgb(218, 205, 194);
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+.login-text{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0,0, 0, .75555555);
+    background-image: url(./images/logo1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    filter: brightness(80%);
+    position: relative;
+    display: inline-block;
+    position:absolute ;
+}
+.login-text h2{
+    position: relative;
+    top :38%;
+    color: rgb(218, 205, 194);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: acumin-pro, system-ui, sans-serif;
+}
+
+    
+
+
